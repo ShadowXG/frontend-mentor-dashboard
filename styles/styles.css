@@ -1,0 +1,11 @@
+html {
+    font-family: "Rubik", sans-serif;
+
+    /* Colors */
+    --blue-500: rgb(88, 71, 235);
+
+    --red-500: rgb(255, 92, 124);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
