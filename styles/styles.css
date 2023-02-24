@@ -1,10 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
 html {
     font-family: "Rubik", sans-serif;
 
     /* Colors */
-    --blue-500: rgb(88, 71, 235);
 
-    --red-500: rgb(255, 92, 124);
+    --blue-100: rgb(189, 193, 255);
+    --blue-200: rgb(111, 118, 200);
+    --blue-300: rgb(86, 194, 230);
+    --blue-500: rgb(88, 71, 235);
+    --blue-800: rgb(28, 31, 74);
+    --blue-900: rgb(15, 20, 36);
+    --orange-200: rgb(255, 140, 102);
+    --red-300: rgb(255, 92, 124);
+    --lime-green-500: rgb(74, 207, 129);
+    --violet-500: rgb(117, 54, 211);
+    --yellow-300: rgb(241, 198, 91);
+
+    /* Fonts */
+    --font-size-h1: 3rem;
+    --font-size-time-window: 2rem;
+    --font-size-activity-name: 2rem;
+    --font-size-activity-result: 4rem;
+    --font-size-activity-window: 1.5rem;
+
+    /* Border Radius */
+    --br: 2rem;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--blue-900);
+    display: grid;
+    place-items: center;
+    padding: 8rem 2.5rem;
+}
+
+section.activity-tracker {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2.5rem;
 }
 
 .attribution { font-size: 11px; text-align: center; }
