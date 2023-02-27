@@ -47,5 +47,20 @@ section.activity-tracker {
     gap: 2.5rem;
 }
 
+@media screen and (min-width: 500px) {
+    section.activity-tracker {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        grid-template-rows: 1fr 1fr;
+        min-height: 50rem;
+        gap: 3rem;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    section.activity-tracker {
+        max-width: 111rem;
+    }
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
